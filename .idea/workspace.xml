@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="289508a1-faac-4a40-a169-a7e1d3ba8ac4" name="Changes" comment="update app">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/androidTest/java/com/example/unipath1/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/DataBaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/FeedbackAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/HomeScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/LeaderBoardAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/LeaderBoardFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/PickProfAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/PickProfScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/ProfileFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/RatingScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/SubmitScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/java/com/example/unipath1/subjectAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_account_box_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_alternate_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_arrow_back_ios_new_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_boy_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_follow_the_signs_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_home_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_leaderboard_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_local_phone_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_lock_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_logout_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/bronze_medal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/default_profile_pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/edit_txt_rectangle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/gold_medal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/loginimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/meyer_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/rectangle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/shape_mo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/shapeemail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/shapelogin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/shapenavibar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/shapeoval.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/silver_medal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/slimimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/welcomeappimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/welcomeguyimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/welcomeicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/welcomeimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/drawable/wiedling_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/font/arimo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/font/arimo_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/activity_home_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/activity_pick_prof_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/activity_rating_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/activity_submit_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/feedback_recycler_view_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/fragment_leader_board.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/leaderboard_recycler_view_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/prof_recycler_view_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/layout/subject_recycler_view_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/menu/navigation_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-hdpi/loginbackgroundimg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/app/src/test/java/com/example/unipath1/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/mainDataBase.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PickWise-master/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Mohamed amine\.android\avd\Pixel_6_Pro_API_33.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/PickWise-master">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/PickWise-master/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UniPath1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UniPath1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UniPath1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UniPath1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2XDcirahIxwWTuFIgsg03np0pgr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohamed amine/Downloads/PickWise-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Android App.UniPath1.app">
+    <configuration name="UniPath1.app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="UniPath1.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Android App.UniPath1.app" />
+      <item itemvalue="Android App.Unnamed" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="289508a1-faac-4a40-a169-a7e1d3ba8ac4" name="Changes" comment="" />
+      <created>1698167220763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698167220763</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update app" />
+    <option name="LAST_COMMIT_MESSAGE" value="update app" />
+  </component>
+</project>

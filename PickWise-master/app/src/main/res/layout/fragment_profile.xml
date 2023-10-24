@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:text="Abraham Lincoln "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/cardView3"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="@+id/cardView3"
+            app:layout_constraintTop_toBottomOf="@+id/prof_img">
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/grey"
+            app:cardCornerRadius="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileName"
+            tools:layout_editor_absoluteX="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/university"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="sans-serif"
+                    android:text="University"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/universityinput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/university"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif"
+                    android:text="Hochschule Darmstadt"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/university"
+                    app:layout_constraintStart_toStartOf="@+id/university"
+                    app:layout_constraintTop_toBottomOf="@+id/university" />
+
+                <TextView
+                    android:id="@+id/degree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/universityinput"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Degree"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/universityinput"
+                    app:layout_constraintStart_toStartOf="@+id/universityinput"
+                    app:layout_constraintTop_toBottomOf="@+id/universityinput" />
+
+                <TextView
+                    android:id="@+id/degreeinput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/degree"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif"
+                    android:text="Bsc. Computer Science"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@id/degree"
+                    app:layout_constraintStart_toStartOf="@+id/degree"
+                    app:layout_constraintTop_toBottomOf="@+id/degree" />
+
+                <TextView
+                    android:id="@+id/adress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/degreeinput"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Address"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@id/degreeinput"
+                    app:layout_constraintStart_toStartOf="@+id/degreeinput"
+                    app:layout_constraintTop_toBottomOf="@+id/degreeinput" />
+
+                <TextView
+                    android:id="@+id/adressinput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/adress"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif"
+                    android:text="Schifferstraße 2, 264579"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@id/adress"
+                    app:layout_constraintStart_toStartOf="@+id/degree"
+                    app:layout_constraintTop_toBottomOf="@+id/adress" />
+
+                <TextView
+                    android:id="@+id/nationality"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/adressinput"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Nationality"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/adressinput"
+                    app:layout_constraintStart_toStartOf="@+id/adressinput"
+                    app:layout_constraintTop_toBottomOf="@+id/adressinput" />
+
+                <TextView
+                    android:id="@+id/nationalityInput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nationality"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif"
+                    android:text="Tunisia"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/nationality"
+                    app:layout_constraintStart_toStartOf="@+id/nationality"
+                    app:layout_constraintTop_toBottomOf="@+id/nationality" />
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nationalityInput"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Age"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/nationalityInput"
+                    app:layout_constraintStart_toStartOf="@+id/nationalityInput"
+                    app:layout_constraintTop_toBottomOf="@+id/nationalityInput" />
+
+                <TextView
+                    android:id="@+id/name_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/age"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingBottom="0dp"
+                    android:text="21"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/age"
+                    app:layout_constraintStart_toStartOf="@+id/age"
+                    app:layout_constraintTop_toBottomOf="@+id/age" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="9dp"
+            android:backgroundTint="@color/black"
+
+            app:cardCornerRadius="25dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="117dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/background" />
+
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/prof_img"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_centerHorizontal="true"
+            android:foregroundGravity="center"
+            android:src="@drawable/slimimage"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/cardView3"
+            app:layout_constraintEnd_toEndOf="@+id/cardView3"
+            app:layout_constraintStart_toStartOf="@+id/cardView3"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/cardView3"
+            app:layout_constraintStart_toStartOf="@+id/cardView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

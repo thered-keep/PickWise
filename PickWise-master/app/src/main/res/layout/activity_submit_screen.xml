@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubmitScreen">
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/baseline_arrow_back_ios_new_24"
+        android:text="press"
+        app:backgroundTint="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/mainBackground"
+        app:layout_constraintTop_toTopOf="@+id/prof_img" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mainBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/grey"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/leaveCommentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif"
+                android:text="Leave your comments here:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/opinion"
+                app:layout_constraintStart_toStartOf="@+id/opinion"
+                app:layout_constraintTop_toBottomOf="@+id/helpfulnessTxt" />
+
+            <EditText
+                android:id="@+id/opinion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/edit_txt_rectangle"
+                android:fontFamily="sans-serif"
+                android:gravity="top|left"
+                android:lines="8"
+                android:maxLines="8"
+                android:padding="10dp"
+                android:text="yo  "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/leaveCommentText"
+                app:layout_constraintVertical_bias="0.517" />
+
+            <TextView
+                android:id="@+id/helpfulnessTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:fontFamily="sans-serif"
+                android:text="Helpfulness"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/examTxt"
+                app:layout_constraintTop_toBottomOf="@+id/examTxt" />
+
+            <TextView
+                android:id="@+id/examTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:fontFamily="sans-serif"
+                android:text="Exams"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/practicalLabTxt"
+                app:layout_constraintTop_toBottomOf="@+id/practicalLabTxt" />
+
+            <TextView
+                android:id="@+id/practicalLabTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:fontFamily="sans-serif"
+                android:text="Practical Lab"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/lectureTxt"
+                app:layout_constraintTop_toBottomOf="@+id/lectureTxt" />
+
+            <TextView
+                android:id="@+id/lectureTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans-serif"
+                android:text="Lecture"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/nameTxt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+
+            <RatingBar
+
+                android:id="@+id/lecture_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="0dp"
+                android:numStars="5"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:stepSize="1"
+                app:layout_constraintBottom_toBottomOf="@+id/lectureTxt"
+                app:layout_constraintStart_toEndOf="@+id/lectureTxt"
+                app:layout_constraintTop_toTopOf="@+id/lectureTxt"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <RatingBar
+                android:id="@+id/lab_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:stepSize="1"
+                app:layout_constraintEnd_toEndOf="@+id/lecture_bar"
+                app:layout_constraintStart_toStartOf="@+id/lecture_bar"
+                app:layout_constraintTop_toBottomOf="@+id/lecture_bar"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <RatingBar
+                android:id="@+id/exam_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:stepSize="1"
+                app:layout_constraintEnd_toEndOf="@+id/lab_bar"
+                app:layout_constraintStart_toStartOf="@+id/lab_bar"
+                app:layout_constraintTop_toBottomOf="@+id/lab_bar"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <RatingBar
+                android:id="@+id/help_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:stepSize="1"
+                app:layout_constraintEnd_toEndOf="@+id/exam_bar"
+                app:layout_constraintStart_toStartOf="@+id/exam_bar"
+                app:layout_constraintTop_toBottomOf="@+id/exam_bar"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/nameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif"
+                android:text="Dr. Benjamin Meyer      "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/rateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="80dp"
+        android:backgroundTint="@color/lightblue"
+        android:text="Submit"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mainBackground"
+        app:layout_constraintEnd_toEndOf="@+id/mainBackground"
+        app:layout_constraintStart_toStartOf="@+id/mainBackground"
+        app:layout_constraintTop_toBottomOf="@+id/mainBackground"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/prof_img"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/meyer_img"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainBackground"
+        app:layout_constraintEnd_toEndOf="@+id/mainBackground"
+        app:layout_constraintStart_toStartOf="@+id/mainBackground"
+        app:layout_constraintTop_toTopOf="@+id/mainBackground" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
